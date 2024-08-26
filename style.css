@@ -1,0 +1,665 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    display: block;
+
+}
+img {
+  user-select: none;
+}
+.section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    min-height: 720px;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+.poem {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: italic;
+  color: aliceblue;
+  font-size: 40px;
+  z-index: 1000;
+  position: relative;
+}
+.figures {
+  position: absolute;
+  width: 267px;
+  height: 82px;
+  z-index: 1000;
+}  
+/*Section 1*/
+#s2-1 {
+  text-align: center;
+  top: 800px;
+}
+p#s2-2 {
+  top: 1500px;
+  text-align: center;
+}
+#s1 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 921px;
+  flex-direction: column;
+  align-items: center;
+}
+#tenlittlesoldiers {
+  position: absolute;
+  width: 772px;
+  height: 326px;
+}
+#figures1{
+position: absolute;
+width: 267px;
+}
+#stiff-island {
+  position: relative;
+  width: 100vw;
+  top: -5%; 
+}
+.lightning-left,
+.lightning-right {
+  position: absolute;
+  top: -30.6px;
+  left: -16px;
+  width: 748.2px;
+  height: 480.7px;
+  z-index: 100;
+}
+.lightning-right {
+  top: -63px;
+  left: 771px;
+  width: 802.4px;
+  height: 860px;
+}
+
+/*Section 2*/
+#s2 {
+  height: 1971px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+#table {
+  position: absolute;
+  height: 710px;
+  width: 1262px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: visible;
+  object-fit: cover;
+}
+.tableware #tableware1 {
+  position: absolute;
+  top: 300px;
+  right: 70px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+  rotate:calc(-90deg);
+}
+.tableware #tableware2 {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+  rotate:calc(90deg);
+}
+.tableware #tableware3 {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+}
+.tableware #tableware4 {
+  position: absolute;
+  top: 480px;
+  right: 350px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+}
+.tableware #tableware5 {
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+  rotate:calc(180deg);
+}
+.tableware #tableware6 {
+  position: absolute;
+  top: 100px;
+  left: 370px;
+  width: 390px;
+  height: 220px;
+  z-index: 1;
+  rotate:calc(180deg);
+}
+.glassofwine #glassofwine1 {
+  top: 1500px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+/*Section3*/
+p#s3-1 {
+  text-align: center;
+  top: 800px;
+}
+p#s3-2 {
+  text-align: center;
+  top: 1700px;
+}
+#s3 {
+  height: 2759px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+#s3_bg {
+  width: 1440px;
+  height: 916px;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+#eye1 {
+  align-self: stretch;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top:1524px;
+}
+#red-window {
+  height: 732px;
+  width: 1301px;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top:2121px;
+
+}
+/*Section 4*/
+#s4 {
+  height: 1196px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s4-1 {
+  text-align: left;
+  top: 200px;
+}
+p#s4-2 {
+  text-align: right;
+  top: 350px;
+}
+#s4-BG {
+  width: 1440px;
+  height: 916px;
+  position: absolute;
+  left: 0;
+  top:500px
+}
+#s4-BG-image {
+  position: absolute;
+  left: 0;
+  height: 812px;
+  object-fit: cover;
+}
+#s4-human #human1 {
+  position: absolute;
+  left: 408px;
+  width: 300px;
+  height: 800px;
+  object-fit: contain;
+  z-index: 2;
+  rotate:calc(90deg);
+  top:430px;
+}#s4-human #human2 {
+  position: absolute;
+  left: 500px;
+  width: 300px;
+  height: 800px;
+  object-fit: contain;
+  z-index: 2;
+  rotate:calc(90deg);
+  top:430px;
+}#s4-human #human3 {
+  position: absolute;
+  left: 600px;
+  width: 280px;
+  height: 800px;
+  object-fit: contain;
+  z-index: 2;
+  rotate:calc(90deg);
+  top:430px;
+}#s4-human #human4 {
+  position: absolute;
+  left: 690px;
+  width: 270px;
+  height: 800px;
+  object-fit: contain;
+  z-index: 2;
+  rotate:calc(90deg);
+  top:430px;
+}
+#watersplash #watersplash1 {
+    position: absolute;
+    left: 630px;
+    top: 600px;
+    width: 671.14px;
+    height: 423.29px;
+    object-fit: contain;
+    rotate: calc(-156.58deg);
+    z-index: 100;
+}
+/*Section5*/
+#s5 {
+  height: 2802px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s5-1 {
+  text-align: center;
+}
+p#s5-2 {
+  text-align: center;
+  top: 1300px;
+}
+#trees-right {
+  position: absolute;
+    right: -800px;
+    width: 1926.34px;
+    height: 1083.57px;
+    z-index: 1;
+    rotate: calc(-90deg);
+    top: 232px;
+}
+
+#trees-left {
+  position: absolute;
+    left: -800px;
+    width: 1926.34px;
+    height: 1083.57px;
+    z-index: 1;
+    rotate: calc(90deg);
+    top: 232px;
+}
+#road {
+  position: absolute;
+  left: 200px;
+  width: 1136px;
+  height: 500px;
+  z-index: 1;
+  rotate: calc(90deg);
+  object-fit: contain;
+  top: 600px;
+
+}
+#whuman1 {
+  position: absolute;
+  left: 450px;
+  width: 686px;
+  height: 386px;
+  z-index: 100;
+  object-fit: contain;
+  top: 583px;
+}
+#wood {
+  position: absolute;
+  left: 35%;
+  top: 1800px;
+  width: 490.5px;
+  height: 276px;
+  rotate: calc(90deg);
+  z-index: 100;
+}
+#halfhuman-left {
+  position: absolute;
+  top: 1700px;
+  right: 35%;
+  width: 981px;
+  height: 523px;
+  rotate: calc(90deg);
+  z-index: -1;
+}
+#halfhuman-right {
+  position: absolute;
+  top: 1700px;
+  left: 35%;
+  width: 981px;
+  height: 523px;
+  rotate: calc(90deg);
+  z-index: -1;
+}
+/*Section6*/
+#s6 {
+  height: 2802px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s6-1 {
+  text-align: left;
+  top: 600px;
+}
+p#s6-2 {
+  text-align: center;
+  top: 1300px;
+}
+#cloth {
+  position: absolute;
+  width: 1838px;
+  height: 1034px;
+  object-fit: contain;
+  top: 140px;
+  left: 10%;
+}
+#tea {
+  position: absolute;
+  width: 979px;
+  height: 551px;
+  object-fit: contain;
+  top: 700px;
+  left: 30%;
+}
+#bumblebee {
+  position: absolute;
+  width: 1472px;
+  height: 828px;
+  object-fit: contain;
+  top: 1500px;
+  left: 5%;
+}
+/*Section7*/
+#s7 {
+  height: 2542px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s7-1 {
+  text-align: center;
+  top: -50px;
+}
+p#s7-2 {
+  text-align: center;
+  top: 800px;
+}
+#s7-BG {
+  position: absolute;
+  width: 1540px;
+  height: 866px;
+  object-fit: contain;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 500px;
+}
+#cancongly {
+  position: absolute;
+  width: 1406px;
+  height: 791px;
+  object-fit: contain;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 500px;
+}
+#s7-human{
+  position: absolute;
+  width: 1445px;
+  height: 813px;
+  object-fit: contain;
+  right: 25%;
+  transform: translate(-50%, -50%);
+  top: 2000px;
+  rotate: calc(90deg);
+}
+#s7-hands {
+  position: absolute;
+  width: 535px;
+  height: 301px;
+  object-fit: contain;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  top: 2013px; 
+  rotate:calc(90deg);
+}
+#candle {
+  position: absolute;
+  width: 445px;
+  height: 251px;
+  object-fit: contain;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  top: 2103px;
+  rotate:calc(90deg);
+}
+/*Section8*/
+#s8 {
+  height: 1304px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s8-1 {
+  text-align: left;
+  left: 50px;
+  top: 200px;
+}
+div#s8-2 {
+  text-align: left;
+  left: 50px;
+  top: 200px;
+}
+#mountain1 {
+  position: absolute;
+  width: 1064px;
+  height: 1200px;
+  object-fit: contain;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  top: 500px;
+  rotate: calc(90deg);
+}
+#mountain2 {
+  position: absolute;
+  width: 961px;
+  height: 1084px;
+  object-fit: contain;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  top: 700px;
+  rotate: calc(90deg);
+}
+#redsea {
+  position: absolute;
+  width: 881px;
+  height: 2369px;
+  object-fit: contain;
+  left: -90%;
+  transform: translate(-50%, -50%);
+  top: 340px;
+  rotate: calc(90deg)
+}
+#s8-human {
+  position: absolute;
+  width: 462px;
+  height: 692px;
+  object-fit: contain;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 600px;
+}
+/*Section9*/
+#s9 {
+  height: 2739px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s9-1 {
+  text-align: center;
+  top: 200px;
+}
+p#s9-2 {
+  text-align: center;
+  top: 1000px;
+}
+#window1{
+  position: absolute;
+  width: 1051px;
+  height: 983px;
+  object-fit: contain;
+  left: 10%;
+  rotate: calc(90deg);
+}
+#s9-human{
+  position: absolute;
+  width: 825px;
+  height: 464px;
+  object-fit: contain;
+  left: 15%;
+  rotate: calc(90deg);
+  top: 500px;
+}
+#s9-beheadedhuman{
+  position: absolute;
+  width: 1220.86px;
+  height: 686.5px;
+  object-fit: contain;
+  left: 15%;
+  rotate: calc(90deg);
+  top: 1500px;
+}
+/*Section10*/
+#s10 {
+  height: 1275px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s10-1 {
+  text-align: center;
+  top: -50px;
+}
+p#s10-2 {
+  text-align: center;
+  top: 1000px;
+}
+#s10-sun{
+  position: absolute;
+  width: 1797px;
+  height: 1011px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 500px;
+}
+#man {
+  position: absolute;
+  width: 755.96px;
+  height: 425.46px;
+  object-fit: cover;
+  top: 200px;
+  left: 10%;
+  rotate: calc(-102.75deg);
+}
+#woman {
+  position: absolute;
+  width: 755.96px;
+  height: 425.46px;
+  object-fit: cover;
+  top: 330px;
+  left: 35%;
+  rotate: calc(88.29deg);
+}
+/*Section11*/
+#s11 {
+  height: 2219px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+p#s11-1 {
+  text-align: center;
+}
+p#s11-2 {
+  text-align: center;
+  top: 1000px;
+}
+#vera1{
+  position: absolute;
+  width: 1440px;
+  height: 2719px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 500px;
+}
+#hangman{
+  position: absolute;
+  width: 879px;
+  height: 494px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  left: 5%;
+  top: 1800px;
+  rotate: calc(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
